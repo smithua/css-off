@@ -1,0 +1,21 @@
+@import url(normalize.css);
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+@import url(http://fonts.googleapis.com/css?family=Lora:700italic);
+body { font-size: 1em; width: 100%; color: #333; }
+
+.wrapper { width: 1280px; }
+
+/* fonts */
+/* Header
+-----------------------------------------------------------*/
+.header h1 p { font-family: 'Lato', sans-serif; font-size: 17.5em; letter-spacing: 12px; line-height: .8em; color: #fff; }
+.header h1 p:last-child { letter-spacing: -14px; }
+.header h1 p::nth-letter(2n) { letter-spacing: -30px; }
+.header .right_side { font-family: 'Lora', serif; text-transform: uppercase; letter-spacing: .3em; font-size: .75em; color: #b0aeb8; }
+.header .box_model { width: 583px; height: 1009px; }
+.header .color { background-color: #cdc9dd; }
+
+/* Middle
+-----------------------------------------------------------*/
+/* Footer
+-----------------------------------------------------------*/
